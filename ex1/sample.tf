@@ -6,3 +6,9 @@ resource "aws_instance" "web" {
     Name = "terraform"
   }
 }
+
+variable "employee_names"
+{
+    default = "ramanarayana"
+
+}
