@@ -12,3 +12,6 @@ variable "employee_names"
     default = "ramanarayana"
 
 }
+output "employee_names"{
+value = var.employee_names
+}
